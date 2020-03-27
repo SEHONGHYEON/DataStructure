@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class leap {
 	public static void main(String[] args) {
 		
-		System.out.println("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(´Ü, 0ÀÔ·Â½Ã Á¾·á)");
+		System.out.println("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”.(ë‹¨, 0ì…ë ¥ì‹œ ì¢…ë£Œ)");
 	      Scanner sc = new Scanner(System.in);
 	      
 	      int year = sc.nextInt();
 	
 	      if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-	         System.out.println(year + "À±³âÀÔ´Ï´Ù.");
+	         System.out.println(year + "ìœ¤ë…„ì…ë‹ˆë‹¤.");
 	      } else {
-	         System.out.println(year + "Æò³âÀÔ´Ï´Ù.");
+	         System.out.println(year + "í‰ë…„ì…ë‹ˆë‹¤.");
 	      }
 
 	}
