@@ -8,7 +8,7 @@ public class gugu {
 		
 		
 		
-		System.out.println("备备窜阑 免仿且 箭磊甫 涝仿窍技夸.");
+		System.out.println("구구단 출력 숫자를 입력하세요.");
 		 Scanner sc = new Scanner(System.in);
 	      
 	      int num = sc.nextInt();
