@@ -8,7 +8,7 @@ public class gugu {
 		
 		
 		
-		System.out.println("±¸±¸´ÜÀ» Ãâ·ÂÇÒ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("å¤‡å¤‡çªœé˜‘ å…ä»¿ä¸” ç®­ç£Šç”« æ¶ä»¿çªæŠ€å¤¸.");
 		 Scanner sc = new Scanner(System.in);
 	      
 	      int num = sc.nextInt();
