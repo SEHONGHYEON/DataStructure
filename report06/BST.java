@@ -15,7 +15,7 @@ class BinarySearchTree {
          newNode.data = x; 
          newNode.left = null; 
          newNode.right = null;
-         //
+         
          if(p == null)
             return newNode; 
          else if(newNode.data < p.data){
@@ -101,7 +101,7 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
         public void delete Min() {
-        	if (root == null) System.out.println("empty Ʈ��");
+        	if (root == null) System.out.println("empty Æ®¸®");
         	root = delete Min(root);
         }
         public Node<Key, Value> delete Min(Node<Key, Value> n) {
@@ -112,7 +112,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         	return n;
         }
         public void delteMax() {
-        	if (root == null) System.out.println("empty Ʈ��");
+        	if (root == null) System.out.println("empty Æ®¸®");
         	        root = delete Max(root);
         }
         private Node<Key, Value> delete Max(Node<Key, Value> n) { 
